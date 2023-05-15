@@ -1,10 +1,10 @@
-# discord-bot-website-template
-An opensource discord bot website template that you can use to make your bot seem more professional! This is a part of the [opensource discord-resources repository](https://github.com/TrustedMercury/discord-resources)
+# HyperionWebsite
+An opensource discord bot website template that you can use to make your bot seem more professional! This is a part of the [opensource discord-resources repository](https://github.com/rinxyzz/HyperionSource)
 
 ## Tutorial
 1. Clone the repository on your local computer.
 ```
-git clone https://github.com/TrustedMercury/discord-bot-website-template.git
+git clone https://github.com/rinxyzz/HyperionSource
 ```
 2. Edit the code and fill in information that matches your bot
 3. Deploy the website with the new code
@@ -19,7 +19,7 @@ git clone https://github.com/TrustedMercury/discord-bot-website-template.git
 1. Fork the this repository
 2. Clone your forked repository
 ```
-git clone https://github.com/YOUR-NAME-HERE/discord-bot-website-template.git
+git clone https://github.com/rinxyzz/HyperionSource
 ```
 3. Make the necessary changes
-4. Create a [PULL REQUEST HERE](https://github.com/TrustedMercury/discord-bot-website-template/pulls)
+4. Create a [PULL REQUEST HERE](https://github.com/rinxyzz/HyperionSource/pulls)
