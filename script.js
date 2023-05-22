@@ -25,7 +25,7 @@ window.addEventListener('DOMContentLoaded', () => {
     // Fetch the list of slash commands from the Discord API
     fetch('https://discord.com/api/v9/applications/1103427996532097054/commands', {
         headers: {
-            'Authorization': 'Bot MTEwMzQyNzk5NjUzMjA5NzA1NA.GHUrm1.lZuWoMmLeTnprWbG3OkIR0862vrzgLepKx3ttY'
+            'Authorization': 'Bot MTEwMzQyNzk5NjUzMjA5NzA1NA.GoPxH4.sooU8pV1jzf-NAhXaQ4Y95ZWhZTKzucyCas8XA'
         }
     })
     .then(response => response.json())
