@@ -13,9 +13,9 @@ window.addEventListener('DOMContentLoaded', () => {
     .then(data => {
         // Process the slash commands data
         data.forEach(command => {
-            const listItem = document.createElement('li');
-            listItem.textContent = command.name;
-            commandList.appendChild(listItem);
+            const listItems = document.createElement('li');
+            listItems.textContent = command.name;
+            commandList.appendChild(listItems);
         });
     })
     .catch(error => console.log(error));
