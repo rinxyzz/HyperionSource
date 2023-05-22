@@ -19,6 +19,8 @@ window.addEventListener('DOMContentLoaded', () => {
         .catch(error => console.log(error));
 });
 
+// DIscord Slash
+
 window.addEventListener('DOMContentLoaded', () => {
     const commandList = document.getElementById('command-list');
 
@@ -33,7 +35,7 @@ window.addEventListener('DOMContentLoaded', () => {
         // Process the slash commands data
         data.forEach(command => {
             const listItem = document.createElement('li');
-            listItem.textContent = command.name;
+            listItem.textContent = `${command.name} - ${command.description}`;
             commandList.appendChild(listItem);
         });
     })
