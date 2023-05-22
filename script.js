@@ -4,8 +4,8 @@ window.addEventListener('DOMContentLoaded', () => {
     const jsonDataContainer = document.getElementById('json-data');
 
     // Define the GET values
-    const param1 = 'Riinn';
-    const param2 = 'Kyousuke';
+    const param1 = 'param1';
+    const param2 = 'param2';
 
     // Construct the URL with GET values
     const url = `https://raw.githubusercontent.com/rinxyzz/HyperionSource/main/members.json?param1=${param1}&param2=${param2}`;
