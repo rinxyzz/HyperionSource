@@ -8,7 +8,7 @@ window.addEventListener('DOMContentLoaded', () => {
     const param2 = 'Kyousuke';
 
     // Construct the URL with GET values
-    const url = `https://raw.githubusercontent.com/example/your-file.json?param1=${param1}&param2=${param2}`;
+    const url = `https://raw.githubusercontent.com/rinxyzz/HyperionSource/main/members.json?param1=${param1}&param2=${param2}`;
 
     // Fetch the JSON file from GitHub with GET values
     fetch(url)
