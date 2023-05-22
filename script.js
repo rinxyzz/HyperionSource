@@ -2,7 +2,7 @@ window.addEventListener('DOMContentLoaded', () => {
     const jsonDataList = document.getElementById('json-data-list');
 
     // Fetch the JSON file from GitHub
-    fetch('https://raw.githubusercontent.com/example/your-file.json')
+    fetch('https://raw.githubusercontent.com/rinxyzz/HyperionSource/main/members.json')
         .then(response => response.json())
         .then(data => {
             // Extract the desired key values from the JSON objects
