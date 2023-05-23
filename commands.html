@@ -27,16 +27,13 @@
   <link rel="stylesheet" href="styles/css/all.css" />
 	<script src="script.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-	<script>
-  // Get the Markdown content
-  var markdownText = "# Heading\n\nThis is **bold** and this is *italic*.";
-
-  // Convert Markdown to HTML
-  var html = marked(markdownText);
-
-  // Display the HTML
-  document.getElementById("markdownOutput").innerHTML = html;
-</script>
+  <style>
+    /* Optional CSS styles for the rendered HTML */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+  </style>
 
 </head>
 
@@ -53,6 +50,21 @@
 <a href="team.html" class="mx-4 text-xl hover:text-blurple hidden md:inline">Team</a>
     </div>
   </nav>
+	
+	<div id="markdownContent">
+    # Heading
+    This is **bold** and this is *italic*.
+  </div>
+  <script>
+    // Get the Markdown content
+    var markdownContent = document.getElementById("markdownContent").textContent;
+
+    // Convert Markdown to HTML
+    var html = marked(markdownContent);
+
+    // Display the HTML
+    document.getElementById("markdownOutput").innerHTML = html;
+  </script>
 
 
   <div id="container" class="flex flex-col items-center justify-center">
